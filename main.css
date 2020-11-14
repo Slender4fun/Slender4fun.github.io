@@ -17,7 +17,7 @@ body{
   height: 100%;
   width: 100%;
   background-color: dimgrey;
-  scroll-snap-type: y ndatory;
+  font-weight: bold;
 }
 .first{
   height: 100%;
@@ -42,22 +42,31 @@ body{
   margin: auto;
   height: 100%;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
 }
+.textsub{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  }
 .title{
-  font-size: 5vw;
+  font-size: 7vw;
   width: 100%;
   text-align: center;
   text-shadow: -1px -2px #806600;
-  font-weight: bold;
+
 }
 .subtitle{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   text-align: center;
   font-size: 3vw;
-  text-shadow: -1px -2px #806600;
-  font-weight: bold;
+  text-shadow: 1px 2px #806600;
 }
 .clip{
 	scroll-snap-align: start;
