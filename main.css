@@ -5,22 +5,36 @@ html{
   height: 100%;
   width: 100%;
   background-color: black;
+  scroll-snap-type: y proximity;
 }
 body{
+  font-family: 'Roboto', sans-serif;
   border: 0px;
   padding: 0px;
-  margin: 0px;
-  height: 100%;
-  width: 100%;
-}
-.textcontainer{
   margin: auto;
   height: 100%;
   width: 90%;
-  display: flex;
+  background-color: dimgrey;
+}
+.first{
+  background-image: url("");
+}
+.textcontainer{
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  width: 90%;
   align-items: center;
   justify-content: center;
-  background-color: grey;
+  display: flex;
+}
+.title{
+  font-size: 5vw;
+  width: 100%;
+  text-align: center;
+}
+.subtitle{
+  font-size: 3vw;
 }
 .clip{
 	scroll-snap-align: start;
