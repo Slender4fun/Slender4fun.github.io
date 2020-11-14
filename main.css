@@ -1,4 +1,5 @@
 html{
+  color: white;
   border: 0px;
   padding: 0px;
   margin: 0px;
@@ -6,6 +7,7 @@ html{
   width: 100%;
   background-color: black;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -15,7 +17,7 @@ body{
   height: 100%;
   width: 100%;
   background-color: dimgrey;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y ndatory;
 }
 .first{
   height: 100%;
@@ -23,6 +25,17 @@ body{
   background-image: url("gallery/fire.JPG");
   background-attachment: fixed;
 	background-size: cover;
+  background-position: center;
+  color: black;
+}
+.second{
+  height: 100%;
+  width: 100%;
+  background-image: url("gallery/water_on_grass.JPG");
+  background-attachment: fixed;
+	background-size: cover;
+  background-position: center;
+  color: black;
 }
 .textcontainer{
   flex-direction: column;
@@ -37,10 +50,14 @@ body{
   font-size: 5vw;
   width: 100%;
   text-align: center;
-  text-
+  text-shadow: -1px -2px #806600;
+  font-weight: bold;
 }
 .subtitle{
+  text-align: center;
   font-size: 3vw;
+  text-shadow: -1px -2px #806600;
+  font-weight: bold;
 }
 .clip{
 	scroll-snap-align: start;
