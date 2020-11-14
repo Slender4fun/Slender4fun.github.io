@@ -31,9 +31,10 @@ body{
 .second{
   height: 100%;
   width: 100%;
-  background-image: url("gallery/water_on_grass.JPG");
+  background-image: url("gallery/fire_new.JPG");
   background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   color: black;
 }
