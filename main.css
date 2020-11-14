@@ -3,28 +3,26 @@ html{
   padding: 0px;
   margin: 0px;
   height: 100%;
+  width: 100%;
+  background-color: black;
 }
 body{
   border: 0px;
   padding: 0px;
   margin: 0px;
   height: 100%;
+  width: 100%;
 }
-h1{
-  text-align: center;
+.textcontainer{
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
 }
-h2{
-  text-align: center;
-}
-h3{
-  text-align: center;
-  color: #293133;
-}
-.first{
- background-color: grey ;
-
-   border: 0px;
-   padding: 0px;
-   margin: 0px;
-   height: 100%;
+.clip{
+	scroll-snap-align: start;
+	height: 100%;
 }
