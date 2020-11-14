@@ -13,18 +13,22 @@ body{
   padding: 0px;
   margin: auto;
   height: 100%;
-  width: 90%;
+  width: 100%;
   background-color: dimgrey;
   scroll-snap-type: y mandatory;
 }
 .first{
-  background-image: url("Gallery/water on grass.jpg");
+  height: 100%;
+  width: 100%;
+  background-image: url("gallery/water_on_grass.JPG");
+  background-attachment: fixed;
+	background-size: cover;
 }
 .textcontainer{
   flex-direction: column;
   margin: auto;
   height: 100%;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -33,6 +37,7 @@ body{
   font-size: 5vw;
   width: 100%;
   text-align: center;
+  text-
 }
 .subtitle{
   font-size: 3vw;
