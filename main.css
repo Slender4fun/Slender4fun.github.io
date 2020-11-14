@@ -1,5 +1,17 @@
+html{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+body{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
 h1{
-  text-align: right;
+  text-align: center;
 }
 h2{
   text-align: center;
@@ -7,4 +19,12 @@ h2{
 h3{
   text-align: center;
   color: #293133;
+}
+.first{
+ background-color: grey ;
+
+   border: 0px;
+   padding: 0px;
+   margin: 0px;
+   height: 100%;
 }
