@@ -31,7 +31,7 @@ body{
 .second{
   height: 100%;
   width: 100%;
-  background-image: url("gallery/fire_new.JPG");
+  background-image: url("gallery/fire_new.jpg");
   background-attachment: fixed;
 	background-size: contain;
   background-repeat: no-repeat;
