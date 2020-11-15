@@ -51,9 +51,7 @@ body{
   width: auto;
   margin: 1vw;
   text-align: center;
-  color: #4d4d4d;
-  background: dimgrey;
-  border-radius: 1vw;
+  text-shadow: 1px 2px #806600;
 }
 .textsub{
   display: flex;
