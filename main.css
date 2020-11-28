@@ -16,27 +16,24 @@ body{
   margin: auto;
   height: 100%;
   width: 100%;
-  background-color: dimgrey;
+  background-color: Black;
   font-weight: bold;
 }
 .first{
   height: 100%;
   width: 100%;
-  background-image: url("gallery/fire.JPG");
-  background-attachment: fixed;
-	background-size: cover;
+  background-image: url("gallery/fire_new.JPG");
+  background-attachment: ;
+	background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   color: black;
 }
 .second{
   height: 100%;
   width: 100%;
-  background-image: url("gallery/fire_new.jpg");
-  background-attachment: fixed;
-	background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: black;
+  display: flex;
+  background-color: green;
 }
 .textcontainer{
   flex-direction: column;
@@ -72,4 +69,21 @@ body{
 .clip{
 	scroll-snap-align: start;
 	height: 100%;
+}
+.gallery{
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  column-count: ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: darkgreen;
+}
+.picture{
+  height: ;
+  width: 30%;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
