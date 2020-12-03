@@ -23,7 +23,6 @@ body{
   height: 100%;
   width: 100%;
   background-image: url("gallery/fire.JPG");
-  background-attachment: ;
 	background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,11 +55,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.textbutton{
+.textbutton:visited{
   background-color:rgba(0,0,0,0.5);
   padding: 5px;
   border-radius: 5px;
-
+  color: red;
 }
 
 .textcontainer{
