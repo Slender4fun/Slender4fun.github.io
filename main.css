@@ -59,14 +59,15 @@ body{
   background-color:rgba(0,0,0,0.5);
   padding: 5px;
   border-radius: 5px;
-  color: violet;
 }
-.textbutton:link{
-  color: green;
+:link, :visited, :active{
+  text-decoration: none;
+  color: white;
 }
-.textbutton:visited{
-  color: red;
+.a:hover{
+  text-decoration: underline;
 }
+
 
 .textcontainer{
   flex-direction: column;
