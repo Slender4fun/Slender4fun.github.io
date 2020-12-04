@@ -44,6 +44,11 @@ body{
   align-items: center;
   align-content: space-around;
 }
+@media ( max-width: 500px){
+	.menu{
+    flex-direction: column;
+  }
+}
 .button{
   margin: 5px;
   height: 300px;
@@ -64,11 +69,10 @@ body{
   text-decoration: none;
   color: white;
 }
-:hover{
+.textbutton:hover{
   text-decoration: underline;
+  font-size: 26px;
 }
-
-
 .textcontainer{
   flex-direction: column;
   margin: auto;
