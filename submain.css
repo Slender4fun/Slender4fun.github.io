@@ -23,7 +23,6 @@ body{
   height: 100%;
   width: 100%;
   background-image: url("gallery/fire.JPG");
-  background-attachment: ;
 	background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,6 +43,12 @@ body{
   justify-content: center;
   align-items: center;
   align-content: space-around;
+  flex-direction: row;
+}
+@media only screen and ( max-width: 768px){
+	.menu{
+    flex-direction: column;
+  }
 }
 .button{
   margin: 5px;
@@ -60,9 +65,15 @@ body{
   background-color:rgba(0,0,0,0.5);
   padding: 5px;
   border-radius: 5px;
-
 }
-
+:link, :visited, :active{
+  text-decoration: none;
+  color: white;
+}
+.textbutton:hover{
+  text-decoration: underline;
+  font-size: 26px;
+}
 .textcontainer{
   flex-direction: column;
   margin: auto;
