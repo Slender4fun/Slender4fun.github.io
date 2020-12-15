@@ -43,8 +43,9 @@ body{
   justify-content: center;
   align-items: center;
   align-content: space-around;
+  flex-direction: ;
 }
-@media ( max-width: 500px){
+@media only screen and ( max-width: 768px){
 	.menu{
     flex-direction: column;
   }
