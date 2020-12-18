@@ -22,7 +22,6 @@ body{
 .first{
   height: 100%;
   width: 100%;
-  background-image: url("gallery/fire.webp");
 	background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
